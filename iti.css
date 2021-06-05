@@ -1,0 +1,335 @@
+/* start main */
+body{}
+.container{ width: 1170px;
+    margin: auto
+}
+.center{text-align: center}
+*{font-family: Merriweather;}
+button,li{cursor: pointer;}
+
+/* end main */
+
+/*start header*/
+.header{background-color:#4f5877}
+.header .navbar{color: #4f5877;
+ overflow: hidden;
+    background-color: white;
+  
+}
+.header .navbar h2{float: left; 
+    cursor: pointer;
+    transition: .5s;}
+.header .navbar h2:hover{color: black}
+.header .navbar ul{list-style: none;
+padding-left: 0px;
+    float: right;
+      cursor: pointer;
+}
+.header .navbar ul li{
+  float: left;
+    padding: 10px;
+    transition: .5s
+}
+.header .navbar ul .active{color:  #4f5877}
+.header .navbar ul li:hover{color: black}
+
+
+
+.slider{padding: 100px}
+.slider h2{color: snow;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase}
+.slider h2 span{color: snow;
+    font-weight: 800;}
+.slider p{color: #ada7a7;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 1.5}
+.slider button{color: white;
+    font-weight: 400;
+    font-size: 19px;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 30px;
+    line-height: 1.5;
+    background-color: #7ce28e;
+     text-transform: capitalize;
+    transition: .5s}
+.slider button:hover{background-color: silver;
+    color: black}
+/*end header*/
+
+/*start feature*/
+.features  {padding: 70px;
+overflow: hidden}
+.features h1  {color:  #4f5877;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px}
+.features .feat  {color:gray;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: capitalize; }
+.features .part1 {padding: 20px}
+.features .part1 .shapes{width: 50%;
+    float: left;
+    overflow: hidden}
+.features .part1 .shapes i {float: left;
+    font-size: 50px
+        ;margin-top:37px;
+    padding: 20px;
+    color: #4f5877;
+    text-shadow: 1px 1px black;
+    border: 2px solid  #4f5877;
+    border-radius: 50%}
+.features .part1 .shapes h5{font-size: 25px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    color:  #4f5877}
+.features .part1 .shapes p{font-size: 13px;
+    margin-left: 100px;
+    line-height: 1.5;
+    color: gray}
+/*end feature*/
+
+/*start img*/
+.img{overflow: hidden;
+    background-color:  #4f5877}
+.img .shapes{width: 33.33%;
+    float: left;
+    padding:50px 0px;
+    transition: .5s}
+.img .active {background-color: #424a65}
+.img .shapes:hover {background-color:#424a65}
+.img .shapes i{color: white;
+    font-size: 30px;
+    margin-bottom: 10px}
+.img .shapes h5{color: snow;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px}
+.img .shapes p{color: #ada7a7;
+    font-size: 12px;
+    text-transform: capitalize;
+    letter-spacing: 1px}
+/*end img*/
+
+/*start work*/
+.work{padding: 88px;
+    overflow: hidden}
+.work h1{font-size: 40px;
+    color:  #4f5877;
+text-transform: uppercase}
+.work p{color:gray;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: capitalize; }
+.work ul{list-style: none;
+    margin-left: 350px;
+    width: 100%;}
+.work ul li{float:left;
+    font-weight: 700;
+    font-size: 15px;
+    transition: .5s;
+    color:  #4f5877;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px}
+.work ul li:hover{color: #29345d}
+.work .portofolio{overflow: hidden;
+    float: right}
+.work .portofolio .part {float: right;
+    width: 25%;
+    margin-top: 30px;}
+.work .portofolio .part h3{text-transform: capitalize;
+    margin-bottom: 0px;
+    color: #4f5877 }
+.work .portofolio .part p{font-size: 13px}
+/*end work*/
+
+
+/*start sub*/
+.subscribe{overflow: hidden;
+    padding: 30px;
+    background-color: #4f5877}
+.subscribe .part{width: 50%;
+    float: left}
+.subscribe .part h3{color: white;
+    text-transform: capitalize}
+.subscribe .part p{color: #b7b4b4;
+    text-transform: capitalize;
+    line-height: 1.5}
+.subscribe .part .btn1{background-color:#4f5877;
+    color: white;
+    padding: 16px;
+    margin-top: 45px;
+    margin-left: 250px;
+    margin-right: 35px;
+    transition: .5s;
+    font-size:18px;
+    text-transform: capitalize; }
+.subscribe .part .btn2{background-color:#7ce28e ;
+    color: white; 
+    padding: 16px;
+    transition: .5s;  
+    text-transform: capitalize; 
+    font-size:18px; }
+.subscribe .part .btn1:hover{background-color: gray;
+    color: black}
+.subscribe .part .btn2:hover{background-color: white;
+    color: black}
+/*end sub*/
+
+
+/*start blog*/
+.blogs{padding: 70px;
+overflow: hidden}
+.blogs h1{color:  #4f5877;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px}
+.blogs .blog{color:gray;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: capitalize; }
+.blogs .part1{padding: 20px}
+.blogs .part1 .shapes{width: 50%;
+    float: left;
+    overflow: hidden}
+.blogs .part1 .shapes img{float: left;
+    font-size: 50px;
+    margin-top: 15px;
+    color: #4f5877;
+    text-shadow: 1px 1px black;
+    margin-right: 20px}
+.blogs .part1 .shapes h5{margin-left: 115px;margin-bottom: 0px;text-transform: uppercase;color:  #4f5877}
+.blogs .part1 .shapes p{font-size: 13px;margin-left: 115px;line-height: 1.5;color: gray}
+/*end blog*/
+
+
+/*start send*/
+.send{padding: 20px;
+    background-color: #4f5877;
+    overflow: hidden}
+.send .part{width: 50%;
+    float: left}
+.send .part h4{color: white;
+    letter-spacing: 1px;
+    text-transform: capitalize}
+.send form{margin-top: 5px}
+.send input{padding: 15px;}
+.send button{padding:15px 20px ;
+    background-color:#7ce28e;
+    color: white;
+    text-transform: capitalize}
+/*end send*/
+
+/*start skill*/
+.skills{padding: 30px;
+    overflow: hidden}
+.skills  h1{color:  #4f5877;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px}
+.skills .skil{color:gray;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-transform: capitalize; }
+.skills .skill{width: 25%;
+    float: left;
+  margin-top: 25px}
+.skills .skill button{ color: #4f5877;
+    border: 3px solid  #4f5877;
+    border-radius: 50%;
+    padding:45px 35px;
+    background-color: #ffffff;
+    font-size: 20px}
+.skills .skill p{ color: #4f5877;
+    font-size: 20px;
+    text-transform: capitalize}
+/*end skill*/
+
+/*start footer*/
+.footer{padding: 30px 0px;
+    background-color: #4f5877;
+    overflow: hidden}
+.footer .part{width: 33.333%;
+    float: left}
+.footer .part h4{font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black}
+.footer .part p{font-size: 16px;
+    color: #d6d6d6;
+    text-transform: capitalize;
+    line-height: 1.5;
+    text-shadow: 1px 1px black}
+.footer .add{font-size: 20px;
+    text-shadow: 1px 1px black}
+.footer ul {list-style: none;
+    margin-left: 60px}
+.footer ul li{float: left;
+    font-size: 20px;
+    color:#d6d6d6;
+    text-shadow: 1px 1px black;
+    margin-left: 9px;
+    margin-top: 20px;
+    border: 2px solid #d6d6d6   ;
+    border-radius: 50%;
+     padding: 14px 17px;}
+.footer .btn1{margin-top: 5px;
+    padding: 15px;
+    background-color:#1f152b;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: .5s}
+.footer .btn1:hover{margin-top: 5px;
+    background-color:gray;
+    color: white}
+.footer .btn2{margin-top: 5px;
+    padding: 15px;
+    background-color:#7ce28e;
+    color: white;
+    text-transform: capitalize;
+    font-size: 18px;
+  transition: .5s}
+.footer .btn2:hover{margin-top: 5px;
+    background-color:white;
+    color: black}
+/*end footer*/
+/*start nav*/
+.nav{overflow: hidden}
+.nav .navbar{color: white;
+ overflow: hidden;
+    background-color: #292f44;
+  
+}
+.nav .navbar h2{float: left;
+    cursor: pointer;
+    color: snow}
+
+.nav .navbar ul{list-style: none;
+padding-left: 0px;
+    float: right;
+      cursor: pointer;
+}
+.nav .navbar ul li{
+  float: left;
+    padding: 10px;
+    transition: .5s
+}
+.nav .navbar ul li:hover{
+  color: gray
+}
+
+/*end nav*/
